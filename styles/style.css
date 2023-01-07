@@ -70,11 +70,13 @@ nav ul li button {}
     font-size: 85px;
     margin-bottom: 20px;
 }
-.section-description{
+
+.section-description {
     margin-bottom: 30px;
     line-height: 30px;
 }
-#second-btn{
+
+#second-btn {
     border: 1px solid #FD6E0A;
     background: white;
     color: #FD6E0A;
@@ -82,22 +84,45 @@ nav ul li button {}
 }
 
 /* main section */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* about section styles */
-.about-me{
+.about-me {
     background-color: #FFF8F3;
     margin: 130px 0;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 30px;
     text-align: center;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+}
+/* what i do */
+.skills-container{
+    display: flex;
 }
